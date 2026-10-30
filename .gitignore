@@ -1,0 +1,40 @@
+# Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Storage / uploads
+apps/api/storage/
+!apps/api/storage/.gitkeep
+
+# Build / misc
+dist/
+build/
+coverage/
+.DS_Store
+*.log
+
+# Playwright
+apps/web/test-results/
+apps/web/playwright-report/
+apps/web/screenshots/
+
+# IDE
+.vscode/
+.idea/
